@@ -1,0 +1,22 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\uart1.o"
+".\objects\delay.o"
+".\objects\stm32f0xx_it.o"
+".\objects\system_stm32f0xx.o"
+".\objects\startup_stm32f030.o"
+".\objects\stm32f0xx_flash.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_spi.o"
+".\objects\stm32f0xx_syscfg.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\stm32f0xx_adc.o"
+".\objects\lcomp_e75_test.o"
+".\objects\pcm1.o"
+".\objects\user_test.o"
+--library_type=microlib --strict --scatter ".\Objects\lcomp_e75_test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lcomp_e75_test.map" -o .\Objects\lcomp_e75_test.axf

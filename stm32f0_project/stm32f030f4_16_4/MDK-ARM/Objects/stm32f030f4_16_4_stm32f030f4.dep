@@ -1,0 +1,981 @@
+Dependencies for Project 'stm32f030f4_16_4', Target 'stm32f030f4': (DO NOT MODIFY !)
+F (..\User\main.c)(0x5EA8E938)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\uart1.h)(0x5D47C678)
+I (..\Project\pcm1.h)(0x5D47CA3B)
+I (..\Project\lcomp_e75_test.h)(0x5D47D127)
+I (..\Project\user_test.h)(0x5D47C6A0)
+I (..\Project\OKOA_LED_Test\okoa_led_test.h)(0x5DF71AB9)
+I (..\Boards\inc_mbad9834.h)(0x5E64F4BB)
+I (..\Drivers\ad9834.h)(0x5E634270)
+I (..\Boards\INC-MBVBUSRELAY.h)(0x5E7075A1)
+I (..\Boards\INC-MBDIOCN1.h)(0x5E9A54D3)
+F (..\User\uart1.c)(0x5E9D202D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\uart1.o --omf_browse .\objects\uart1.crf --depend .\objects\uart1.d)
+I (..\User\uart1.h)(0x5D47C678)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\User\delay.c)(0x5D47D1A5)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\User\stm32f0xx_it.c)(0x5E9A583F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+I (..\User\stm32f0xx_it.h)(0x5D47D17C)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (..\Boards\INC-MBDIOCN1.h)(0x5E9A54D3)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\User\system_stm32f0xx.c)(0x53A3EE47)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\User\startup_stm32f030.s)(0x53A30674)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F030x6 SETA 1"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_flash.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_flash.o --omf_browse .\objects\stm32f0xx_flash.crf --depend .\objects\stm32f0xx_flash.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x53A30677)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_spi.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_spi.o --omf_browse .\objects\stm32f0xx_spi.crf --depend .\objects\stm32f0xx_spi.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_syscfg.o --omf_browse .\objects\stm32f0xx_syscfg.crf --depend .\objects\stm32f0xx_syscfg.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_adc.o --omf_browse .\objects\stm32f0xx_adc.crf --depend .\objects\stm32f0xx_adc.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_exti.c)(0x53A30678)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_exti.o --omf_browse .\objects\stm32f0xx_exti.crf --depend .\objects\stm32f0xx_exti.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+F (..\Project\lcomp_e75_test.c)(0x5DF6E02B)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\lcomp_e75_test.o --omf_browse .\objects\lcomp_e75_test.crf --depend .\objects\lcomp_e75_test.d)
+I (..\Project\lcomp_e75_test.h)(0x5D47D127)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\Project\pcm1.c)(0x5DF71CCD)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\pcm1.o --omf_browse .\objects\pcm1.crf --depend .\objects\pcm1.d)
+I (..\Project\pcm1.h)(0x5D47CA3B)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+F (..\Project\user_test.c)(0x5DF71CD5)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\user_test.o --omf_browse .\objects\user_test.crf --depend .\objects\user_test.d)
+I (..\Project\user_test.h)(0x5D47C6A0)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+F (..\Project\OKOA_LED_Test\OKOA_LED_Test.c)(0x5DF82B4A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\okoa_led_test.o --omf_browse .\objects\okoa_led_test.crf --depend .\objects\okoa_led_test.d)
+I (..\Project\OKOA_LED_Test\okoa_led_test.h)(0x5DF71AB9)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\bsp\app1_i2c_eeprom.h)(0x5DF71E70)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+I (..\bsp\app_tlc5973.h)(0x5DF71C62)
+F (..\bsp\app1_i2c_eeprom.c)(0x5DF71F3D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\app1_i2c_eeprom.o --omf_browse .\objects\app1_i2c_eeprom.crf --depend .\objects\app1_i2c_eeprom.d)
+I (..\bsp\app1_i2c_eeprom.h)(0x5DF71E70)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+F (..\bsp\app_tlc5973.c)(0x5DF82A3D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\app_tlc5973.o --omf_browse .\objects\app_tlc5973.crf --depend .\objects\app_tlc5973.d)
+I (..\bsp\app_tlc5973.h)(0x5DF71C62)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+F (..\bsp\bsp_eeprom_24xx.c)(0x5DF6F393)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\bsp_eeprom_24xx.o --omf_browse .\objects\bsp_eeprom_24xx.crf --depend .\objects\bsp_eeprom_24xx.d)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+F (..\bsp\bsp_tlc5973.c)(0x5DF72A3A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\bsp_tlc5973.o --omf_browse .\objects\bsp_tlc5973.crf --depend .\objects\bsp_tlc5973.d)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+F (..\bsp\bsp_i2c_gpio.c)(0x5DF71F57)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\bsp_i2c_gpio.o --omf_browse .\objects\bsp_i2c_gpio.crf --depend .\objects\bsp_i2c_gpio.d)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+F (..\Drivers\AD9834.c)(0x5E7D9A03)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\ad9834.o --omf_browse .\objects\ad9834.crf --depend .\objects\ad9834.d)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+I (..\Drivers\ad9834.h)(0x5E634270)
+I (..\Boards\inc_mbad9834.h)(0x5E64F4BB)
+F (..\Drivers\MCP42010.c)(0x5E64F509)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\mcp42010.o --omf_browse .\objects\mcp42010.crf --depend .\objects\mcp42010.d)
+I (..\bsp\bsp.h)(0x5E62FA29)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\bsp\bsp_i2c_gpio.h)(0x5DF6EFDF)
+I (..\bsp\bsp_eeprom_24xx.h)(0x5DF6F58D)
+I (..\bsp\bsp_tlc5973.h)(0x5DF71D09)
+I (..\Drivers\mcp42010.h)(0x5E650AF3)
+I (..\Boards\inc_mbad9834.h)(0x5E64F4BB)
+I (..\Drivers\ad9834.h)(0x5E634270)
+F (..\Boards\INC_MBAD9834.c)(0x5E6603B6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\inc_mbad9834.o --omf_browse .\objects\inc_mbad9834.crf --depend .\objects\inc_mbad9834.d)
+I (..\Boards\inc_mbad9834.h)(0x5E64F4BB)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\Drivers\ad9834.h)(0x5E634270)
+I (..\User\delay.h)(0x5D47D1C5)
+I (..\Drivers\mcp42010.h)(0x5E650AF3)
+F (..\Boards\INC-MBVBUSRELAY.c)(0x5E8D4B8C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\inc-mbvbusrelay.o --omf_browse .\objects\inc-mbvbusrelay.crf --depend .\objects\inc-mbvbusrelay.d)
+I (..\Boards\INC-MBVBUSRELAY.h)(0x5E7075A1)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)
+F (..\Boards\INC-MBDIOCN1.c)(0x5E9A788A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BME280_driver-master -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\User -I ..\BME280_driver-master -I ..\BME280_driver-master\selftest -I ..\Project -I ..\Project\OKOA_LED_Test -I ..\bsp -I ..\Boards -I ..\Drivers-I.\RTE\_stm32f030f4-ID:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-ID:\hardware\ARM_V5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\inc-mbdiocn1.o --omf_browse .\objects\inc-mbdiocn1.crf --depend .\objects\inc-mbdiocn1.d)
+I (..\Boards\INC-MBDIOCN1.h)(0x5E9A54D3)
+I (..\User\bsp_defines.h)(0x5D47C67E)
+I (..\User\stm32f0xx.h)(0x53A30676)
+I (..\User\core_cm0.h)(0x53A305FC)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\User\core_cmInstr.h)(0x525803DC)
+I (..\User\core_cmFunc.h)(0x525803DB)
+I (..\User\system_stm32f0xx.h)(0x53A30676)
+I (..\User\stm32f0xx_conf.h)(0x53A3EE47)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x53A30679)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x53A30679)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\hardware\ARM_V5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\delay.h)(0x5D47D1C5)

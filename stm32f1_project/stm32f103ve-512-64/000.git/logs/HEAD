@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 f001433e7f71450dd171526af5d031f94f3358c3 canping xie <canping.xie@incubecn.com> 1555429548 +0800	clone: from https://github.com/Xcping2013/INC-MBTMC429-01_user
+f001433e7f71450dd171526af5d031f94f3358c3 415bcfd06eb6e3b082323c848e164e4416d67079 canping xie <canping.xie@incubecn.com> 1555429796 +0800	commit: 初始化git工程，后期使用git管理此工程代码
+415bcfd06eb6e3b082323c848e164e4416d67079 415bcfd06eb6e3b082323c848e164e4416d67079 canping xie <canping.xie@incubecn.com> 1555484426 +0800	checkout: moving from master to road_button

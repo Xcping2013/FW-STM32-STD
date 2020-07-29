@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1111 111, 11, LIC=KIVEV-P4LTL-33XM1-CP6X1-97MGL-N3RCF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  D:\hardware\ARM_V5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+E:\9. My Workspace\FW-STM32-CP\FW_STM32_STD\stm32f0_project\stm32f030f4_16_4\MDK-ARM\stm32f030f4_16_4.uvprojx
+Project File Date:  07/29/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\hardware\ARM_V5\ARM\ARMCC\Bin'
+Build target 'stm32f030f4'
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_spi.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_usart.c...
+compiling delay.c...
+compiling uart1.c...
+compiling bsp_eeprom_24xx.c...
+compiling bsp_i2c_gpio.c...
+compiling stm32f0xx_it.c...
+compiling system_stm32f0xx.c...
+compiling user_test.c...
+compiling INC_MBOAKPLED-01.c...
+..\Boards\INC_MBOAKPLED-01\INC_MBOAKPLED-01.c(15): warning:  #47-D: incompatible redefinition of macro "LED_TOGGLE_MBOAKPLED"  (declared at line 6 of "..\Boards\INC_MBOAKPLED-01\INC_MBOAKPLED-01.h")
+  #define  LED_TOGGLE_MBOAKPLED()	  GPIOB->ODR ^= BIT1		
+..\Boards\INC_MBOAKPLED-01\INC_MBOAKPLED-01.c: 1 warning, 0 errors
+linking...
+Program Size: Code=7676 RO-data=212 RW-data=64 ZI-data=1160  
+FromELF: creating hex file...
+".\Objects\FW_MBVBUSRELAY4\FW-MBOAKPLED-01.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_stm32f030f4
+  D:\hardware\ARM_V5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:12
+</pre>
+</body>
+</html>

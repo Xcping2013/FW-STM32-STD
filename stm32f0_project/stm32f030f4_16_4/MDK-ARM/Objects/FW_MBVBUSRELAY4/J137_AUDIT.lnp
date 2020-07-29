@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\objects\fw_mbvbusrelay4\stm32f0xx_flash.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_gpio.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_misc.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_rcc.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_spi.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_syscfg.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_usart.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_adc.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_exti.o"
+".\objects\fw_mbvbusrelay4\uart1.o"
+".\objects\fw_mbvbusrelay4\delay.o"
+".\objects\fw_mbvbusrelay4\bsp_eeprom_24xx.o"
+".\objects\fw_mbvbusrelay4\bsp_i2c_gpio.o"
+".\objects\fw_mbvbusrelay4\stm32f0xx_it.o"
+".\objects\fw_mbvbusrelay4\system_stm32f0xx.o"
+".\objects\fw_mbvbusrelay4\startup_stm32f030.o"
+".\objects\fw_mbvbusrelay4\user_test.o"
+".\objects\fw_mbvbusrelay4\inc-mbvbusrelay4.o"
+--library_type=microlib --strict --scatter ".\Objects\FW_MBVBUSRELAY4\J137_AUDIT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\J137_AUDIT.map" -o .\Objects\FW_MBVBUSRELAY4\J137_AUDIT.axf
